@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-image: url("imagenes3/fondogeneral.jpg");
     font-family:Helvetica, "Archivo Black", sans-serif;
@@ -5,4 +6,13 @@ body {
 
 footer {
     background-color:#F16BAE;
+=======
+body {
+    background-image: url("imagenes3/fondogeneral.jpg");
+    font-family:Helvetica, "Archivo Black", sans-serif;
+}
+
+footer {
+    background-color:#F16BAE;
+>>>>>>> 81eb1a50d1136dcad27cf0b7f47a3dcd0afc36fb
   }
