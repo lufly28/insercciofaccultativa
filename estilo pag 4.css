@@ -1,0 +1,132 @@
+/*Estilo de la página 4-Grupos estudiantiles*/
+
+body{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  font-family: Helvetica;
+  color:rgb(20, 27, 92);
+  background: url(imagenes3/fondogeneral.jpg);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  h1 {
+    display:flex;
+    justify-content:center;
+  }
+  
+  li a:hover {
+    background-color:  rgb(204, 110, 110);
+  }
+
+  #barra {
+    background-color: rgb(216, 123, 123);
+  }
+
+  .header4 header {
+    align-items: left;
+    text-align: left;
+  }
+
+  header{
+    text-align: left;
+    align-items: left;
+  }
+  .chatestudiantil {
+    align-items: center;
+    text-align: center;
+  }
+
+  .t1ce {
+    color: black;
+    
+  }
+
+  .videopag4 {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+    height: 100%;
+  object-fit: cover;
+
+  }
+  .content {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  
+  .discord-link {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #7289DA; /* Color del ícono de Discord */
+  }
+
+  .titulogeneral1 {
+    font-family: "Cinzel", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    }
+  
+    footer {
+      background-color: #f28eb2; /* Ajusta el tono de rosa */
+      color: #ffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .parrafo-introductorio h2 {
+      font-weight: 400;
+      font-family: "Playwrite BE WAL", cursive;
+      font-optical-sizing: auto;
+      font-style: normal;
+      color: #212020e7;
+    }
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+  /* Adjust layout for mobile devices */
+  body {
+    font-size: 16px;
+  }
+  .titulogeneral1 {
+    font-size: 24px;
+  }
+  #barra {
+    flex-direction: column;
+  }
+  #barra li {
+    width: 100%;
+  }
+  .parrafo-introductorio {
+    font-size: 18px;
+  }
+ 
+ iframe {
+  width: 200px;
+  height: 200px;
+}
+}
